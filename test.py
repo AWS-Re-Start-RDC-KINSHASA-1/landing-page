@@ -1,3 +1,4 @@
+import os
 def new_user():
     confirm = "N"
     while confirm != "Y":
@@ -5,3 +6,4 @@ def new_user():
         print("Utiliser username '" + username + "'? (Y/N)")
         confirm = input().upper()
     os.system("sudo adduser " + username)
+g
